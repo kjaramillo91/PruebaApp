@@ -1,0 +1,111 @@
+
+
+// .content{
+//   display: flex;
+//   align-items: center;
+//   justify-content: center;
+//   min-height: 100vh;
+  
+// }
+.logo{
+  display: flex;
+  align-items: center;
+  width: 20px;
+  height: 30px;
+  
+}
+
+.login__logo{
+  height: 10%;
+  width: auto;
+  background: transparent !important;
+  margin-top: 10px;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+}
+
+.recoveryPasswd{
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 17px;
+  text-transform: capitalize;  
+  text-align: center;
+  color: #4A3CDB;
+}
+
+.login_contenido{
+  margin-top: 10px;
+  height: 20%;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  width: auto;
+  background: transparent !important;
+  background-color: #F9F9F9;
+
+}
+.login__contenido__title{
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 31px;
+  line-height: 36px;
+  text-align: center;
+
+  color: #4A3CD6;
+}
+.login__contenido__subtitle{
+
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 140%;
+  text-align: center;
+  color: #222D44;
+
+}
+
+.login__form{
+  height: 60%;
+  justify-content: center;
+  color: #6A7180;
+  text-align: center;
+  align-items: center;
+  background: transparent !important;
+  width: auto;
+
+}
+
+  
+
+.btn{
+  text-decoration: none;
+  border: none;
+  padding: 12px 40px;
+  font-size: 14px;
+  background: linear-gradient(0deg, #221987 0%, #4A3CDB 100%) !important;
+  box-shadow: 0px 0px 10px rgba(74, 60, 219, 0.4);
+  border-radius: 16px;
+  color: #fff;
+  border-radius: 5px;
+  cursor: pointer;
+  outline: none;
+  transition: 0.2s all;
+  text-transform: capitalize;
+  display: flex;
+  transition: top ease 0.5s;
+
+  }
+
+.btn:hover{
+  background-color: #221987;
+  margin-top: -1px;
+  
+}
+ 
+
+

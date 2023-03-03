@@ -1,0 +1,73 @@
+
+
+ 
+
+<ion-content [fullscreen]="true">
+
+   <div class="content__login">
+    <div class="login__logo">
+      <img src="../../assets/img/Layer 1.svg" alt="" srcset="">
+    </div>
+    
+    <div class="login_contenido">
+      <h1 class="login__contenido__title">Bienvenido</h1>
+      <h4 class="login__contenido__subtitle">Inicia sesión para continuar</h4>
+    </div>
+
+    <div class="login__form">
+      <form (ngSubmit)="onSubmit()">
+       
+        <div class="form__items">
+          <div class="login__form__user">
+            <label for="user">Usuario</label>
+            
+            <div class="form__user__items">
+              <span id="icon">
+                <i class="fa-thin fa-circle-user"></i>
+              </span>
+              <input type="text" placeholder="Ingresa tu cedula" name="user" >
+              
+            </div>    
+          
+          </div>
+  
+          <div class="login__form__passwd">
+            <label for="passwd">Contraseña </label>
+            
+            <div class="login__form__items">
+              <input name="passwd" type="password" placeholder="Ingresa tu contraseña">
+            </div>
+            
+          </div>
+
+        </div>
+        
+        
+        
+        <ion-button class="recoveryPasswd" fill="clear" shape="round">
+          ¿Olvidastes tu contraseña?
+        </ion-button>
+        <ion-button class="btn" type="submit" fill="clear" shape="round">
+          iniciar sesión
+        </ion-button>
+      </form>
+    
+
+    </div>
+
+    
+ 
+    
+
+  
+    
+  
+  </div>
+
+ 
+
+  
+   
+    
+ 
+</ion-content>
